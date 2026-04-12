@@ -1,9 +1,11 @@
+# 1. Import Random
 import random
 
+# 2. Getting the User's Name and Greeting the User
 name = input("What is your name: ")
 print(f"Good Luck! {name}")
 
-# List of Words and Choosing a Random Word
+# 3. List of Words and Choosing a Random Word
 words = [
     'rainbow', 'computer', 'science', 'programming', 'python',
     'mathematics', 'player', 'condition', 'reverse', 'water',
@@ -12,14 +14,17 @@ words = [
 
 word = random.choice(words)
 
+# 4. Promting the User to Guess
+
 print("\nGuess the characters")
 
 
-# Initializing Guesses and Truns
+# 5. Initializing Guesses and Truns
 guesses = ''
 turns = 12
 
-# The main game loop
+# 6. The main game loop
+# 6.1. Checking Each Character in the Word
 while turns > 0:
     failed = 0
     for char in word:
