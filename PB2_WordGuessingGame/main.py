@@ -42,7 +42,7 @@ while turns > 0:
     
     # 6.3. Promting for the Next Guess
     guess = input("guess a character: ")
-    guesses += 1
+    guesses += guess
     
     # 6.4. Handling Incorrect Guesses
     if guess not in word:
@@ -50,4 +50,6 @@ while turns > 0:
         print("Wrong")
         print(f"You have {turns}, more guesses ")
         
-    
+        # 6.5. Checking if the User Has Lost
+        if turns == 0:
+            print("You Loose")
