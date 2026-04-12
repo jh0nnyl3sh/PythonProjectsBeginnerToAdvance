@@ -33,3 +33,9 @@ while turns > 0:
         else:
             print("_")
             failed += 1
+            
+# 6.2. Checking if the User Has Won
+    if failed == 0:
+        print("You Win")
+        print(f"The word is: {word}")
+        break
