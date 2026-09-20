@@ -7,6 +7,8 @@
 ### Winning Rules
 
 - 1. Computer generates a random number between 1 and 100.
+- 2. User has a maximum of 7 attempts to guess the number.
+- 3. User wins immediately if the guess matches the randomly generated number.
 
 
 
