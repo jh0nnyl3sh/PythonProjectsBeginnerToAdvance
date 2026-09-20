@@ -1,4 +1,40 @@
-import random
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""import random
 
 print("Hi! Welcome to the Number Guessing Game."
       "\nYou have 7 chances to guess the number. Let's Start!")
@@ -29,4 +65,4 @@ while gc < ch:
         print("Too high! Try a lower number.")
 
     elif guess < num:
-        print("Too low! Try a higher number.")
+        print("Too low! Try a higher number.")"""
