@@ -12,7 +12,7 @@
 - 4- If the guess is lower than the selected number, the program displays "Too Low" and the user should try a higher number.
 - 5- If the guess is higher than the selected number, the program displays "Too High" and the user should try a lower number.
 - 6- Invalid input or numbers outside the range of 1 to 100 do not count as an attempt.
-
+- 7- If the user does not guess the number within 7 valid attempts, the game ends and reveals the coreect number.
 
 
 
