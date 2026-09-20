@@ -10,7 +10,8 @@
 - 2- User has a maximum of 7 attempts to guess the number.
 - 3- User wins immediately if the guess matches the randomly generated number.
 - 4- If the guess is lower than the selected number, the program displays "Too Low" and the user should try a higher number.
-- 5- 
+- 5- If the guess is higher than the selected number, the program displays "Too High" and the user should try a lower number.
+- 6- Invalid input or numbers outside the range of 1 to 100 do not count as an attempt.
 
 
 
