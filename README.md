@@ -1,6 +1,6 @@
 # Python Projects - Beginner to Advanced
 
-
+- Python projects help improve your coding skills and gain practical experience.
 
 
 
