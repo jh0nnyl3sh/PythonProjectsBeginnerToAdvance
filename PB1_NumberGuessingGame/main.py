@@ -16,6 +16,8 @@
 # Eğer 7 hakkı dolarsa ve kullanıcı sayıyı tahmin edemezse kaybedecek ve üretilen sayıyı görecek
 
 
+import random # -> Rastgele sayı üretmek için
+
 
 
 
