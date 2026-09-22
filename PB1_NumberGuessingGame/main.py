@@ -18,9 +18,13 @@
 
 import random # -> Rastgele sayı üretmek için
 
-number = random.randint(1, 10)
+number = random.randint(1, 100) # -> 1-100 arası rastgele sayı
 
-print(number)
+GUESS_COUNT = 7 # -> Kullanıcının tahmin hakkı
+
+
+
+
 
 
 
