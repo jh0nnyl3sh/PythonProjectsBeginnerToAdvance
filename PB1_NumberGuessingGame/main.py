@@ -1,3 +1,22 @@
+# Bu yazarken random kütüphanesinden yararlanacağız.
+
+# Random kütüphanesi ile bilgisayar bizim belirteceğimiz iki sayı arasında
+# rastgele bir sayı üretecek
+
+# Kullanıcının tahmin hakkı 7 olacak
+
+# Kullanıcı üretilen sayıyı tahmin ederse kazanacak
+
+# Kullanıcının tahmini üretilen sayıdan büyük ise kullanıcıya çok büyük diyecek
+
+# Kullanıcının tahmini üretilen sayıdan küçük ise kullanıcıya çok küçük diyecek
+
+# Geçersiz girişlerde kullanıcıya geçersiz giriş yaptığını söyleyecek sadece 1 - 100 veya belirlenen aralıkta bir giriş yapmasını söyleyecek
+
+# Eğer 7 hakkı dolarsa ve kullanıcı sayıyı tahmin edemezse kaybedecek ve üretilen sayıyı görecek
+
+
+
 
 
 
