@@ -1,4 +1,4 @@
-# Bu yazarken random kütüphanesinden yararlanacağız.
+# Bu oyunu yazarken random kütüphanesinden yararlanacağız.
 
 # Random kütüphanesi ile bilgisayar bizim belirteceğimiz iki sayı arasında
 # rastgele bir sayı üretecek
