@@ -18,6 +18,10 @@
 
 import random # -> Rastgele sayı üretmek için
 
+number = random.randint(1, 10)
+
+print(number)
+
 
 
 
