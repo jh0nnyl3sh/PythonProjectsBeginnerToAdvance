@@ -23,6 +23,7 @@ number = random.randint(1, 100) # -> 1-100 arası rastgele sayı
 GUESS_COUNT = 7 # -> Kullanıcının tahmin hakkı
 
 
+    
 
 
 
