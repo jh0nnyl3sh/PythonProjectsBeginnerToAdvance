@@ -20,10 +20,15 @@ import random # -> Rastgele sayı üretmek için
 
 number = random.randint(1, 100) # -> 1-100 arası rastgele sayı
 
-GUESS_COUNT = 7 # -> Kullanıcının tahmin hakkı
+ATTEMPT = 7 # -> Kullanıcının tahmin hakkı
+
+print("\nSayı Bulma Oyununa Hoşgeldiniz") 
+print("1 ile 100 arasında bir sayı tuttum. Bakalım tahmin edebilecek misin?")
+print(f"\nTahmin hakkınız {ATTEMPT} adet. Başarılar!")
 
 
-    
+
+
 
 
 
