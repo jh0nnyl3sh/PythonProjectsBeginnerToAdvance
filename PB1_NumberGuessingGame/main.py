@@ -21,19 +21,42 @@ import random # -> Rastgele sayı üretmek için
 number = random.randint(1, 100) # -> 1-100 arası rastgele sayı
 
 ATTEMPT = 7 # -> Kullanıcının tahmin hakkı
+guess = input("1 ile 100 arasında bir sayı tahmin edin: ") # -> Kullanıcıdan tahmin alıyoruz
+
 
 print("\nSayı Bulma Oyununa Hoşgeldiniz") 
 print("1 ile 100 arasında bir sayı tuttum. Bakalım tahmin edebilecek misin?")
 print(f"\nTahmin hakkınız {ATTEMPT} adet. Başarılar!")
+print("Oyundan çıkmak için 'q' tuşuna basabilirsiniz.")
 
 
 
+while True:
+    
+    if guess == 'q':
+        print("Oyundan çıkılıyor...")
+        break
+    
+    
+    guess = int(guess)
+    
+    if guess != number:
+        ATTEMPT -= 1 # -> Kullanıcının tahmin hakkını azaltıyoruz
+    
+    if guess < 1 or guess > 100:
+        print("Geçersiz giriş! Lütfen 1 ile 100 arasında bir sayı giriniz.")
 
+    elif guess == number:
+        print(f"Tebrikler. Tuttuğum sayı: {number}")
 
+    elif guess > number:
+        print("Tahmininiz çok büyük. Daha küçük bir sayı deneyin.")
 
-
-
-
+    elif guess < number:
+        print("Tahmininiz çok küçük. Daha büyük bir sayı deneyin.")
+        
+    else:
+        print(f"Üzgünüm. Tuttuğum sayı: {number}. Bir dahaki sefere şansını dene!")
 
 
 
