@@ -21,7 +21,6 @@ import random # -> Rastgele sayı üretmek için
 number = random.randint(1, 100) # -> 1-100 arası rastgele sayı
 
 ATTEMPT = 7 # -> Kullanıcının tahmin hakkı
-guess = input("1 ile 100 arasında bir sayı tahmin edin: ") # -> Kullanıcıdan tahmin alıyoruz
 
 
 print("\nSayı Bulma Oyununa Hoşgeldiniz") 
@@ -32,6 +31,8 @@ print("Oyundan çıkmak için 'q' tuşuna basabilirsiniz.")
 
 
 while True:
+    guess = input("1 ile 100 arasında bir sayı tahmin edin: ") # -> Kullanıcıdan tahmin alıyoruz
+
     
     if guess == 'q':
         print("Oyundan çıkılıyor...")
