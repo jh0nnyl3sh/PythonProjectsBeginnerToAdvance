@@ -54,7 +54,8 @@ while True:
 
     elif guess == number:
         print(f"Tebrikler. Tuttuğum sayı: {number}")
-        print(f"{7 - ATTEMPT} tahminde sayıyı buldunuz.")
+        print(f"{7 - ATTEMPT}. tahminde sayıyı buldunuz.")
+        break
 
     elif guess > number:
         print("Tahmininiz çok büyük. Daha küçük bir sayı deneyin.")
