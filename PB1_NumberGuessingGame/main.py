@@ -43,7 +43,12 @@ while True:
     
     if guess != number:
         ATTEMPT -= 1 # -> Kullanıcının tahmin hakkını azaltıyoruz
-    
+        print(f"\nKalan tahmin hakkınız: {ATTEMPT}")
+        
+        if ATTEMPT == 0:
+            print(f"\nÜzgünüm. Tuttuğum sayı: {number}. Bir dahaki sefere şansını dene!")
+            break
+        
     if guess < 1 or guess > 100:
         print("Geçersiz giriş! Lütfen 1 ile 100 arasında bir sayı giriniz.")
 
