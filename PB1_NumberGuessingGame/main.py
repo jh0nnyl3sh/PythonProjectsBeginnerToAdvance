@@ -1,6 +1,21 @@
 
+"""
+
+1-İlk tahminde kazanma senaryosu
+2-Beklenmeyen veri tipi
+3-İşlem sırası
+4-Ölü kod
+
+"""
 
 
+
+
+
+
+
+"""
+# 27.09.2026
 import random
 oyuncu_hakki = 0
 sayi = random.randint(1, 100)
@@ -52,7 +67,7 @@ while True:
     else:
         print("KOD BURAYA GELDİ...")
 
-
+"""
 
 
 
