@@ -1,3 +1,77 @@
+
+
+
+import random
+oyuncu_hakki = 0
+sayi = random.randint(1, 100)
+
+
+print("Sayı Tahmin Oyununa Hoşgeldiniz!")
+oyuncu_hakki = int(input("Kaç tahmin hakkı istiyorsunuz? : "))
+
+while True:
+    
+    
+    
+    tahmin = input("Tahmininizi giriniz (çıkmak için 'q' tuşuna basınız!) : ")
+    
+
+    if tahmin == 'q':
+        print("Oyundan çıkılıyor...")
+        break
+    
+    tahmin = int(tahmin)
+    if tahmin < 1 or tahmin > 100:
+        print(f"Geçersiz giriş! Lütfen 1 ile {sayi} arasında bir sayı giriniz")
+
+    elif tahmin == sayi:
+        print(f"Tebrikler! {sayi} sayısını tuttum. {oyuncu_hakki - 1}. tahminde sayıyı buldunuz.")
+        break
+    
+    elif tahmin > sayi:
+        print(f"Tahmininiz çok büyük. Daha küçük bir sayı deneyin.")
+        oyuncu_hakki -= 1
+        print(f"Kalan tahmin hakkınız: {oyuncu_hakki}")
+        
+        if oyuncu_hakki == 0:
+            print(f"Üzgünüm tahmin hakkın bitti. Tuttuğum sayı: {sayi}")
+            print(f"Oyundan çıkılıyor")
+            break
+
+    
+    elif tahmin < sayi:
+        print(f"Tahmininiz çok küçük. Daha büyük bir sayı deneyin")
+        oyuncu_hakki -= 1
+        print(f"Kalan tahmin hakkınız: {oyuncu_hakki}")
+        
+        if oyuncu_hakki == 0:
+            print(f"Üzgünüm tahmin hakkın bitti. Tuttuğum sayi: {sayi}")
+            print(f"Oyundan çıkılıyor")
+            break
+    
+    else:
+        print("KOD BURAYA GELDİ...")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 # Bu oyunu yazarken random kütüphanesinden yararlanacağız.
 
 # Random kütüphanesi ile bilgisayar bizim belirteceğimiz iki sayı arasında
@@ -17,9 +91,7 @@
 
 
 import random # -> Rastgele sayı üretmek için
-
 number = random.randint(1, 100) # -> 1-100 arası rastgele sayı
-
 ATTEMPT = 7 # -> Kullanıcının tahmin hakkı
 
 
@@ -66,7 +138,7 @@ while True:
     else:
         print(f"Üzgünüm. Tuttuğum sayı: {number}. Bir dahaki sefere şansını dene!")
 
-
+"""
 
 
 
