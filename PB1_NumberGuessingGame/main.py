@@ -1,5 +1,6 @@
 import random
 guess = 7
+attemp = 0
 
 
 
