@@ -1,4 +1,5 @@
 import random
+guess = 7
 
 
 
