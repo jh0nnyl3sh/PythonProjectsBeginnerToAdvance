@@ -4,7 +4,7 @@
 import random
 
 tahmin_hakki = 7
-
+tahmin_sayisi = 0
 
 
 
