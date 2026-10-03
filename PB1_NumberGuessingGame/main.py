@@ -11,6 +11,13 @@ tahmin_sayisi = 0
 while True:
     
     print("Sayı bulma oyununa hoşgeldiniz!")
+    tahmin = input("Çıkmak için 'q' ya basınız.")
+    
+    if tahmin == 'q':
+        print("Oyundan çıkılıyor...")
+        break
+    
+    
 
 
 
