@@ -3,6 +3,8 @@
 
 import random
 
+tahmin_hakki = 7
+
 
 
 
