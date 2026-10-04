@@ -10,9 +10,9 @@ tahmin_sayisi = 0
 
 while True:
     
-    print("Sayı bulma oyununa hoşgeldiniz!")
+    print("\nSayı bulma oyununa hoşgeldiniz!")
     print("7 Hakkınız bulunmaktadır")
-    print("Tahmininiz nedir : ")
+    print("1 ile 100 Arasında bir tahmin yapınız : ")
     tahmin = input("Çıkmak için 'q' ya basınız: ")
     
     number = random.randint(1, 100)
@@ -27,7 +27,7 @@ while True:
     if tahmin == number:
         print(f"Tebrikler! {number} sayısını tuttum. İlk tahminde sayıyı buldunuz.")
     
-    
+
 
 
 
