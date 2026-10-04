@@ -15,16 +15,19 @@ while True:
     print("Tahmininiz nedir : ")
     tahmin = input("Çıkmak için 'q' ya basınız: ")
     
-    tahmin = random.randint(1, 100)
-    tahmin_Sayisi += 1
+    number = random.randint(1, 100)
+    # tahmin_Sayisi += 1
     
     if tahmin == 'q':
         print("Oyundan çıkılıyor...")
         break
     
-
+    number = int(number)
     
-
+    if tahmin == number:
+        print(f"Tebrikler! {number} sayısını tuttum. İlk tahminde sayıyı buldunuz.")
+    
+    
 
 
 
