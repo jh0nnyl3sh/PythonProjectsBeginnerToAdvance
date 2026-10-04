@@ -15,10 +15,14 @@ while True:
     print("Tahmininiz nedir : ")
     tahmin = input("Çıkmak için 'q' ya basınız: ")
     
+    tahmin = random.randint(1, 100)
+    tahmin_Sayisi += 1
+    
     if tahmin == 'q':
         print("Oyundan çıkılıyor...")
         break
     
+
     
 
 
