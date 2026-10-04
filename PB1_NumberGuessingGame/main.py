@@ -7,11 +7,13 @@ tahmin_hakki = 7
 tahmin_sayisi = 0
 
 
+print("\nSayı bulma oyununa hoşgeldiniz!")
+print("7 Hakkınız bulunmaktadır")
+
+
 
 while True:
     
-    print("\nSayı bulma oyununa hoşgeldiniz!")
-    print("7 Hakkınız bulunmaktadır")
     print("1 ile 100 Arasında bir tahmin yapınız : ")
     tahmin = input("Çıkmak için 'q' ya basınız: ")
     
@@ -22,12 +24,34 @@ while True:
         print("Oyundan çıkılıyor...")
         break
     
-    number = int(number)
+    tahmin = int(tahmin)
     
     if tahmin == number:
         print(f"Tebrikler! {number} sayısını tuttum. İlk tahminde sayıyı buldunuz.")
     
-
+    elif tahmin < 1 or tahmin > 100:
+        print(f"Geçersiz giriş! Lütfen 1 ile {number} arasında bir sayı giriniz")
+        tahmin_hakki -= 1
+    
+    elif tahmin > number:
+        print(f"Tahmininiz çok büyük. Daha küçük bir sayı deneyin.")
+        tahmin_hakki -= 1
+        print(f"Kalan tahmin hakkınız: {tahmin_hakki}")
+        
+        if tahmin_hakki == 0:
+            print(f"Üzgünüm tahmin hakkın bitti. Tuttuğum sayı: {number}")
+            print(f"Oyundan çıkılıyor")
+            break
+    
+    else:
+        print(f"Tahmininiz çok küçük. Daha büyük bir sayı deneyin")
+        tahmin_hakki -= 1
+        print(f"Kalan tahmin hakkınız: {tahmin_hakki}")
+        
+        if tahmin_hakki == 0:
+            print(f"Üzgünüm tahmin hakkın bitti. Tuttuğum sayi: {number}")
+            print(f"Oyundan çıkılıyor")
+            break
 
 
 
