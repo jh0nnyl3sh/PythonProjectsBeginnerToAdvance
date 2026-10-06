@@ -14,6 +14,7 @@ tahmin = input("Çıkmak için 'q' ya basınız: ")
 
 
 
+
 while True:
     
     
